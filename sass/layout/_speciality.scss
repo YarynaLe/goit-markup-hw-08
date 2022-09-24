@@ -1,0 +1,42 @@
+.menu-speciality {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.menu-speciality__item {
+    flex-basis: calc((100% - 90px)/4);
+}
+
+.menu-speciality__container-icons {
+    background: var(--background-light-btn);
+    border-radius: 4px;
+    @include flexCenter;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.menu-speciality__box-icons {
+    display: flex;
+}
+
+.header-speciality {
+    font-family: $fontPrimary;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--color-dark);
+    padding-bottom: 10px;
+}
+
+.about-spesiality {
+    font-family: $fontPrimary;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+

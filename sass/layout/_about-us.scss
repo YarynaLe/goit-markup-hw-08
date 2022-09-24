@@ -1,0 +1,44 @@
+.section.about-us {
+    padding-top: 0;
+}
+
+.header-second-work {
+    font-family: $fontPrimary;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--color-dark);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.menu-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.menu-img__wrapper {
+    position: relative;
+}
+
+.overlay-item-img {
+    position: absolute;
+    font-family: $fontPrimary ;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    text-align: center;
+}
+
