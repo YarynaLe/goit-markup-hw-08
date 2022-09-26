@@ -61,7 +61,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 @media screen and (min-width: 768px) {
     .backgroud-section {
-        background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(../img/Hero/img-tablet.jpg.jpg);
+        background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(../img/Hero/img-tablet.jpg);
     }
 }
 
@@ -75,7 +75,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 
 @media screen and (min-width: 1200px) {
     .backgroud-section {
-        background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(/img/Hero/img-desctop.jpg);
+        background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(../img/Hero/img-desctop.jpg);
     }
 
     .header-single {
@@ -88,7 +88,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 screen and (min-resolution: 192dpi) and (min-width: 1200px),
 screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .backgroud-section {
-        background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(/img/Hero/img-desctop@2x.jpg);
+        background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(../img/Hero/img-desctop@2x.jpg);
     }
 }
 /*
