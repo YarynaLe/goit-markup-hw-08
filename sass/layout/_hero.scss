@@ -1,5 +1,99 @@
 .backgroud-section {
     background-color: var(--background-color-header);
+    background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(../img/Hero/img-mobile.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.backgroud-section__container {
+    @include flexCenter;
+    text-align: center;
+    flex-direction: column;
+}
+
+.header-single {
+    font-family: $fontPrimary;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 1.61;
+    color: var(--white-color);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-open-btn {
+    font-family: $fontPrimary;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    display: block;
+    padding: 10px 24px;
+    min-width: 216;
+    margin-top: 30px;
+    border: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--one-accent-color);
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
+    .backgroud-section {
+        background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(../img/Hero/img-mobile@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .backgroud-section {
+        background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(../img/Hero/img-tablet.jpg.jpg);
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .backgroud-section {
+        background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(../img/Hero/img-tablet@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .backgroud-section {
+        background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(/img/Hero/img-desctop.jpg);
+    }
+
+    .header-single {
+        font-size: 44px;
+        line-height: 1.36;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    .backgroud-section {
+        background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(/img/Hero/img-desctop@2x.jpg);
+    }
+}
+/*
+.backgroud-section {
+    background-color: var(--background-color-header);
     background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(../img/img-header.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
@@ -47,5 +141,6 @@
         background-color: var(--one-accent-color);
     }   
 }
+*/
 
 
