@@ -333,6 +333,10 @@ body {
   margin: 10px;
 }
 
+.page-header {
+  border-bottom: 1px solid var(--color-header-border);
+}
+
 .page-header__container {
   display: flex;
   align-items: center;
@@ -357,9 +361,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .page-header {
-    border-bottom: 1px solid var(--color-header-border);
-  }
   .menu {
     display: flex;
   }
