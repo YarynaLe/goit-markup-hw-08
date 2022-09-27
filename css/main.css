@@ -1199,6 +1199,19 @@ body {
     margin-bottom: 0px;
     margin-right: 70px;
   }
+  .socials-container {
+    margin: 0px;
+    margin-left: 0;
+  }
+  .header-join-us {
+    text-align: start;
+  }
+  .container-logo-down {
+    text-align: start;
+  }
+  .menu-address {
+    text-align: start;
+  }
 }
 /*
 
@@ -1344,7 +1357,7 @@ body {
   color: var(--white-color);
   background-color: var(--accent-color);
   display: flex;
-  min-width: 200;
+  min-width: 200px;
   padding: 10px 28px;
   margin-left: 12px;
   border: 0;
@@ -1361,6 +1374,17 @@ body {
   margin-left: 10px;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal-form-follow {
+    flex-direction: row;
+  }
+  .title-follow {
+    text-align: start;
+  }
+  .modal-form-submit-follow {
+    margin-top: 0;
+  }
+}
 /*
 .container-follow {
     margin-left: auto;
@@ -1445,7 +1469,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 101;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
@@ -1610,8 +1634,8 @@ body {
 .modal-check-policy {
   display: flex;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: 1.6;
   font-weight: 400;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -1655,6 +1679,11 @@ body {
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
+    max-width: none;
+  }
+  .modal-check-policy {
+    font-size: 14px;
+    line-height: 1.7;
   }
 }
 .menu-button {

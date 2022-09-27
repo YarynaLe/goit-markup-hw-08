@@ -113,7 +113,8 @@
 }
 
 @media screen and (min-width: 1200px) {
-        .container-footer {
+
+    .container-footer {
         display: flex;
         align-items: baseline;
         flex-direction: row;
@@ -144,6 +145,23 @@
     .contacts-container {
         margin-bottom: 0px;
         margin-right: 70px;
+    }
+
+    .socials-container {
+        margin: 0px;
+        margin-left: 0;
+    }
+
+    .header-join-us {
+        text-align: start;
+    }
+
+    .container-logo-down {
+        text-align: start;
+    }
+
+    .menu-address {
+        text-align: start;
     }
 }
 

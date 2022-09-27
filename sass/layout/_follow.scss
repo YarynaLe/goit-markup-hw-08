@@ -52,7 +52,7 @@
     color: var(--white-color);
     background-color: var(--accent-color);
     display: flex;
-    min-width: 200;
+    min-width: 200px;
     padding: 10px 28px;
     margin-left: 12px;
     border: 0;
@@ -73,7 +73,18 @@
 }
 
 @media screen and (min-width: 1200px) {
- 
+    .modal-form-follow {
+    flex-direction: row; 
+}
+
+.title-follow {
+    text-align: start;
+
+}
+
+.modal-form-submit-follow {
+    margin-top: 0;
+}
 }
 /*
 .container-follow {
