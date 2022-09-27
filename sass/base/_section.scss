@@ -1,3 +1,12 @@
 .section {
- @extend %section;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+
+@media screen and (min-width: 1200px) {
+.section {
+    padding-top: 92px;
+    padding-bottom: 92px;
+    }
 }

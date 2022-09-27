@@ -1,8 +1,8 @@
 .backgroud-section {
     background-color: var(--background-color-header);
     background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(../img/Hero/img-mobile.jpg);
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -75,6 +75,8 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 
 @media screen and (min-width: 1200px) {
     .backgroud-section {
+        padding-top: 200px;
+        padding-bottom: 200px;
         background-image: linear-gradient(var(--background-gradient), var(--background-gradient)), url(../img/Hero/img-desctop.jpg);
     }
 
@@ -82,6 +84,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
         font-size: 44px;
         line-height: 1.36;
     }
+
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
