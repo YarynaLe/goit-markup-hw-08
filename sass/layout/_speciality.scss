@@ -30,6 +30,8 @@
 
 .menu-speciality {
     gap: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
