@@ -646,9 +646,11 @@ body {
   .menu-speciality {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
   }
   .menu-speciality__item {
     width: 354px;
+    flex-basis: calc((100% - 30px) / 2);
   }
   .header-speciality {
     text-align: start;
