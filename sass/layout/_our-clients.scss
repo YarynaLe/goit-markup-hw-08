@@ -59,7 +59,13 @@
     .menu-clients__item {
     display: block;
     flex-basis: calc((100% - 150px)/6);
-}
+    }
+
+    .header-second-work {
+        font-size: 36px;
+        line-height: 1.16;
+        margin-bottom: 50px;
+    }
 }
 /*
 .our-clients {

@@ -95,7 +95,7 @@
 }
 
 .socials-container {
-    margin: 60px;
+    margin-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -134,10 +134,7 @@
         align-items: baseline;
         justify-content: space-between;
     }
-    .socials-container {
-        margin-left: 70px;
-    }
-
+   
     .container-follow {
         margin-left: auto;
     }
@@ -145,11 +142,6 @@
     .contacts-container {
         margin-bottom: 0px;
         margin-right: 70px;
-    }
-
-    .socials-container {
-        margin: 0px;
-        margin-left: 0;
     }
 
     .header-join-us {

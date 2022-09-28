@@ -25,6 +25,9 @@
     height: 40px;
 }
 
+.menu__link--current {
+    color: var(--accent-color);
+}
 @media screen and (min-width: 768px) {
 
     .menu {

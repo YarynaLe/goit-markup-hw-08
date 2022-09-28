@@ -40,9 +40,18 @@
 .menu-speciality__item {
     width: 354px;
 }
+
+.header-speciality {
+    text-align: start;
+}
 }
 
 @media screen and (min-width: 1200px) {
+.backgroud-section {
+    max-width: 1600px;
+    margin: 0 auto;
+} 
+
 .menu-speciality {
     display: flex;
     flex-wrap: nowrap;

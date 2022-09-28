@@ -139,6 +139,10 @@
     }
 }
 
+.modal-form-check {
+    flex-shrink: 0;
+}
+
 .modal-form-check-field {
     @include flexCenter;
     margin-bottom: 30px;
