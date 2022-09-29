@@ -1622,10 +1622,6 @@ body {
   border-color: var(--accent-color);
 }
 
-.modal-form-check {
-  flex-shrink: 0;
-}
-
 .modal-form-check-field {
   display: flex;
   justify-content: center;
@@ -1638,6 +1634,7 @@ body {
   border-radius: 2px;
   cursor: pointer;
   margin-right: 7px;
+  flex-shrink: 0;
 }
 .modal-form-check:checked + .modal-form-own-checkbox {
   background-color: var(--accent-color);
@@ -1650,21 +1647,15 @@ body {
 .modal-form-own-checkbox-icon {
   display: none;
   fill: #FFFFFF;
-  flex-shrink: 0;
 }
 .modal-form-check:checked + .modal-form-own-checkbox .modal-form-own-checkbox-icon {
   display: block;
 }
 
 .modal-check-policy {
-  display: flex;
-  font-family: "Roboto", sans-serif;
   font-size: 12px;
   line-height: 1.6;
-  font-weight: 400;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-  margin-bottom: 4px;
 }
 
 .modal-check-policy-link {

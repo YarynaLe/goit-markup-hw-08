@@ -139,10 +139,6 @@
     }
 }
 
-.modal-form-check {
-    flex-shrink: 0;
-}
-
 .modal-form-check-field {
     @include flexCenter;
     margin-bottom: 30px;
@@ -153,6 +149,7 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 7px;
+    flex-shrink: 0;
 
     .modal-form-check:checked+& {
     background-color: var(--accent-color);
@@ -167,7 +164,6 @@
 .modal-form-own-checkbox-icon {
     display: none;
     fill: #FFFFFF;
-    flex-shrink: 0;
 
     .modal-form-check:checked+.modal-form-own-checkbox & {
         display: block;
@@ -175,14 +171,9 @@
 }
 
 .modal-check-policy {
-    display: flex;
-    font-family: $fontPrimary;
     font-size: 12px;
     line-height: 1.6;
-    font-weight: 400;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    margin-bottom: 4px;
 }
 
 .modal-check-policy-link {
