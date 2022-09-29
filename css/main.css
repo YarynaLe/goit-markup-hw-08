@@ -319,6 +319,7 @@ body {
 .mobile-menu__socials {
   margin-top: 64px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .mobile-menu__socials-link {
